@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "@/app/globals.css";
-import Cabecalho from "../components/Cabecalho/Cabecalho";
-import Rodape from "../components/Rodape/Rodape";
+import ConditionalLayout from "@/app/root";
 
 export const metadata: Metadata = {
   title: "ConnectCar",
@@ -23,9 +22,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body>
-        <Cabecalho />
-        {children}
-        <Rodape />
+        <ConditionalLayout>{children}</ConditionalLayout>
       </body>
     </html>
   );

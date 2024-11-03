@@ -22,6 +22,10 @@ export default function Menu() {
           {" "}
           <Link href="/sobre-projeto">Projeto</Link>{" "}
         </li>
+        <li>
+          {" "}
+          <Link href="/veiculos">Veiculos</Link>{" "}
+        </li>
         <Link href="/entrar-conta">
           {" "}
           <IoPerson />
