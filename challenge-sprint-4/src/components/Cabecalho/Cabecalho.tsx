@@ -1,12 +1,14 @@
 import Image from "next/image";
 import Menu from "../Menu/Menu";
-import logoImg from "@/img/logo.png";
 
 export default function Cabecalho() {
   return (
-    <header className="cabecalho">
-        <Image src={logoImg} alt="logo" width={100} height={100}/>
-        <Menu/>
+    <header className="cabecalho items-center justify-around">
+      <div className="flex text-4xl">
+        <p className="t-tx-color">Connect</p>
+        <p>Car</p>
+      </div>
+      <Menu />
     </header>
-  )
+  );
 }
