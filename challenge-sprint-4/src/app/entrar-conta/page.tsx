@@ -26,7 +26,7 @@ export default function EntrarConta() {
                   className="w-full px-3 py-2 border rounded bg-white h-16"
                 />
                 <div className="flex justify-between mt-2">
-                  <Link href="/esqueceu/senha">Esqueci minha senha</Link>
+                  <Link href="/esqueceu-senha">Esqueci minha senha</Link>
                   <div className="flex space-x-4">
                     <div className="flex items-center">
                       <input

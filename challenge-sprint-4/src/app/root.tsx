@@ -18,6 +18,7 @@ export default function ConditionalLayout({
     "/cadastro-mecanico",
     "/cadastro-veiculo",
     "/entrar-conta",
+    "/esqueceu-senha",
   ].includes(pathname);
 
   return (
