@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body>
+      <body style={{ background: "linear-gradient( #000000a1, #7fccf8d5)" }}>
         <ConditionalLayout>{children}</ConditionalLayout>
       </body>
     </html>

@@ -39,6 +39,22 @@
     }
   }
 
+  .home-diagnosticar-container {
+    @apply flex flex-col items-center justify-center h-90vh;
+    background-image: url("../img/construction.png");
+    background-repeat: no-repeat;
+    background-clip: inherit;
+    background-position: center;
+    background-size: 30%;
+
+    h1 {
+      @apply text-4xl text-center;
+    }
+    h2 {
+      @apply text-2xl text-center;
+    }
+  }
+
   .h-10vh {
     height: 10vh;
   }
@@ -56,5 +72,8 @@
   }
   .bg-color {
     background-color: #b7dff4;
+  }
+  .bg-background {
+    background-color: #2762ca;
   }
 }
