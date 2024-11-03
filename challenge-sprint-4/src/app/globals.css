@@ -12,32 +12,6 @@
     @apply flex flex-col justify-between h-screen bg-background font-medium;
   }
 
-  .home-container {
-    background-image: linear-gradient(#7fccf8d5, #000000a1),
-      url("../img/connectCar.png");
-    background-position: center;
-    background-size: cover;
-    z-index: -1;
-    filter: blur(px);
-  }
-  .sobre-nos-container {
-    background-image: linear-gradient(#7fccf8d5, #000000a1),
-      url("../img/we.png");
-    background-position: center;
-    background-size: cover;
-    z-index: -1;
-    filter: blur(px);
-  }
-  .sobre-projeto-container {
-    background-image: linear-gradient(#7fccf8d5, #000000a1),
-      url("../img/we.png");
-    background-position: center;
-    background-size: cover;
-    z-index: -1;
-    filter: blur(px);
-  }
-
-
   .cabecalho {
     @apply text-white flex h-10vh fixed w-full;
 
@@ -92,5 +66,26 @@
   }
   .bg-background {
     background-color: #2762ca;
+  }
+
+  .home-container {
+    background-image: linear-gradient(#7fccf8d5, #000000a1),
+      url("../img/connectCar.png");
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(px);
+  }
+  .sobre-nos-container {
+    background-image: linear-gradient(#7fccf8d5, #000000a1),
+      url("../img/we.png");
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(px);
+  }
+  .sobre-projeto-container {
+    background-image: linear-gradient(#7fccf8d5, #000000a1),
+      url("../img/we.png");
   }
 }
