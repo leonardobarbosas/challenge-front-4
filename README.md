@@ -33,4 +33,4 @@ mecânica para a primeira avaliação.
 
 ↦ Julia Vasconcelos Oliveira, RM: 558785, Turma:1TDSPF
 
-↦ Leonardo Cadena, RM:, Turma:
+↦ Leonardo Cadena, RM: 557528, Turma:1TDSPF
