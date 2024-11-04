@@ -10,7 +10,7 @@ export default function SobreNos() {
         onde a interação física é um pré-requisito para qualquer diagnóstico ou
         serviço. O diferencial trazido pelo projeto é o uso de Inteligência
         Artificial para fornecer diagnósticos assertivos, ágeis e confiáveis,
-        garantindo ao cliente uma experiência denominada "phygital" — uma junção
+        garantindo ao cliente uma experiência denominada phygital — uma junção
         do físico com o digital.
       </p>
     </div>

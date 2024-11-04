@@ -2,7 +2,7 @@ export default function SobreProjeto() {
   return (
     <div className="sobre-projeto-container flex items-center h-90vh justify-around">
       <p className="w-[30%]">
-        O projeto "ConectCar" apresenta uma solução inovadora para o mercado de
+        O projeto ConectCar apresenta uma solução inovadora para o mercado de
         reparação automotiva, enfocando a experiência digital e a eficiência dos
         serviços prestados. A proposta central é a criação de um sistema
         integrado que permite aos clientes do Centro Automotivo Porto a

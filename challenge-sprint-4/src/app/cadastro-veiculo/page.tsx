@@ -1,4 +1,3 @@
-import { FaCamera } from "react-icons/fa";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import Link from "next/link";
 
