@@ -1,5 +1,5 @@
 export type TipoVeiculo = {
-  id: number;
+  idVeiculo: number;
   placa: string;
   chassi: string;
 };
