@@ -25,7 +25,7 @@ mecânica para a primeira avaliação.
 ### Entrega
 
 - **Link do Projeto Deployado**: [Link para Vercel]()
-- **Repositório GitHub**: [Link para GitHub]()
+- **Repositório GitHub**: [Link para GitHub](https://github.com/leonardobarbosas/challenge-front-4)
 
 ### Integrantes do Grupo
 

@@ -1,0 +1,16 @@
+import { NextResponse } from "next/server";
+import { TipoVeiculo } from "@/types";
+
+export async function GET() {
+  try {
+    const response = await fetch('http://localhost:8080/ConnectCarSprint4/rest/veiculo');
+    if (!response.ok) {
+      throw new Error('Falha ao buscar dados');
+    }
+    const dados: TipoVeiculo[] = await response.json();
+    return NextResponse.json(dados);
+  } catch (error) {
+    console.error('Falha ao buscar os dados:', error);
+    return NextResponse.json({ error: 'Falha ao buscar os dados' }, { status: 500 });
+  }
+}
